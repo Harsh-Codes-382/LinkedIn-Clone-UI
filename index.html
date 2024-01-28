@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link-World</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="linkedin_images/logo.png" type="image/x-icon">
+</head>
+<body>
+    <!-- NAVBAR STARTS -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="linkedin_images/logo.png" alt=""></a>
+
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" placeholder="Search...">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+
+                <li><a href="#" class="active-link"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-user"></i><span>My Network</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-briefcase"></i><span>Jobs</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-message"></i><span>Messages</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-bell"></i><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="linkedin_images/user-6.png" alt="" class="nav-profile-img">
+            </div>
+        </div>
+
+        <!-- PROFILE DROP DOWN MENU -->
+        <div class="profile-menu-wrap">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="linkedin_images/user-6.png" alt="">
+                    <div>
+                        <h3>John Doe</h3>
+                        <a href="profile.html" title="click to see profile">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="linkedin_images/feedback.png" alt="">
+                    <p>Provide Feedback</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="profile-menu-link">
+                    <img src="linkedin_images/setting.png" alt="">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="profile-menu-link">
+                    <img src="linkedin_images/display.png" alt="">
+                    <p> Display & Accessibility</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="profile-menu-link">
+                    <img src="linkedin_images/help.png" alt="">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="profile-menu-link">
+                    <img src="linkedin_images/logout.png" alt="">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+
+              
+
+            </div>
+        </div>
+      
+
+
+    </nav>
+    <!-- NAVBAR ENDS -->
+
+    <!-- container starts -->
+    <div class="container">
+        <!-- LEFT SIDEBAR STARTS -->
+        <div class="left-sidebar">
+            <div class="sidebar-profile-box">
+                <img src="linkedin_images/cover-pic.png" width="100%" alt="">
+                <div class="sidebar-profile-info">
+                    <a href="profile.html">
+                        <img src="linkedin_images/user-6.png" alt="" title="click to see a profile">
+                    </a>
+                   
+                    <h1>John Doe</h1>
+                    <h3>FullStack Dev at Microsoft</h3>
+                    <ul>
+                        <li>Your Profile Views <span>327</span></li>
+                        <li>Your Post Views <span>897</span></li>
+                        <li>Your Connections <span>1021</span></li>
+                    </ul>
+                </div>
+                <div class="sidebar-profile-link">
+                    <a href=""><img src="linkedin_images/items.png" alt="">  My Items</a>
+                    <a href=""> <img src="linkedin_images/premium.png" alt=""> Try Premium</a>
+                </div>
+            </div>
+
+            <div class="sidebar-activity">
+                <h3>RECENT</h3>
+                <a href=""><img src="linkedin_images/recent.png" >Web Developement</a>
+                <a href=""><img src="linkedin_images/recent.png" >Front End</a>
+                <a href=""><img src="linkedin_images/recent.png" >Back End</a>
+                <a href=""><img src="linkedin_images/recent.png" >System Design</a>
+                <a href=""><img src="linkedin_images/recent.png" >Android Developement</a>
+                <h3>GROUPS</h3>
+                <a href=""><img src="linkedin_images/group.png" >Group Learning</a>
+                <a href=""><img src="linkedin_images/group.png" >Team Projects</a>
+                <a href=""><img src="linkedin_images/group.png" >Python Learners</a>
+                <a href=""><img src="linkedin_images/group.png" >Communication Skill</a>
+                <h3>TAGS</h3>
+                <a href=""><img src="linkedin_images/hashtag.png" >FullStack</a>
+                <a href=""><img src="linkedin_images/hashtag.png" >UI/UX Skill</a>
+                <a href=""><img src="linkedin_images/hashtag.png" >AndroidDevelopement</a>
+                <a href=""><img src="linkedin_images/hashtag.png" >DSA.</a>
+                <div class="discover-more-link">
+                    <a href="#">Discover More...</a>
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- LEFT SIDEBAR ENDS -->
+
+        <!-- MAIN CONTNET STARTS -->
+        <div class="main-content">
+            <div class="create-post">
+                <div class="create-post-input">
+                    <img src="linkedin_images/user-6.png" alt="">
+                    <textarea name="" id=""  rows="2" placeholder="Write a post..."></textarea>
+                </div>
+                <div class="create-post-links">
+                    <li><img src="linkedin_images/video.png" alt="">Video</li>
+                    <li><img src="linkedin_images/photo.png" alt="">Photo</li>
+                    <li><img src="linkedin_images/event.png" alt="">Event</li>
+                    <li>POST</li>
+                </div>
+            </div>
+            <div class="sort-by">
+                <hr>
+                <p>Sort by: <span>Top <img src="linkedin_images/down-arrow.png" alt=""></span></p>
+            </div>
+
+            <!-- POST -->
+            <div class="post">
+                <div class="post-author">
+                    <img src="linkedin_images/user-7.png" alt="">
+                    <div>
+                        <h1>Kenny Jenna</h1>
+                        <small>HR at BlackRocks</small>
+                    
+                        <small> &middot; 1hr ago</small>
+                    </div>
+                </div>
+                <p>Always looking for potential emmployer who's knows what kind of potential they are holding so make them to use unleash their potential By, exposing them into situations where they can do their best. So always keep honing your skills</p>
+                <img src="linkedin_images/post-image-3.png" alt="">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="linkedin_images/thumbsup.png" alt="">
+                        <img src="linkedin_images/love.png" alt="">
+                        <img src="linkedin_images/clap.png" alt="">
+                        <span class="liked-users">Michel oran and 123 others</span>
+                    </div>
+                    <div>
+                        26 comments &middot; 30 shares
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="linkedin_images/user-2.png" class="post-activity-user-icon" alt="">
+                        <img src="linkedin_images/down-arrow.png" class="post-activity-arrow-icon" alt="">
+                    </div>
+                        <div class="post-activity-link">
+                            <img src="linkedin_images/like.png" alt="">
+                            <span>Like</span>
+                        </div>
+
+                        <div class="post-activity-link">
+                            <img src="linkedin_images/comment.png" alt="">
+                            <span>Comment</span>
+                        </div>
+
+                        <div class="post-activity-link">
+                            <img src="linkedin_images/share.png" alt="">
+                            <span>Share</span>
+                        </div>
+
+                        <div class="post-activity-link">
+                            <img src="linkedin_images/send.png" alt="">
+                            <span>Send</span>
+                        </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="linkedin_images/user-5.png" alt="">
+                    <div>
+                        <h1>Mack Kerry</h1>
+                        <small>Works at Google</small>
+                    
+                        <small> &middot; 2hr ago</small>
+                    </div>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit assumenda reiciendis laboriosam quaerat, nulla minima fugit, architecto consectetur voluptatibus adipisci at labore aliquid.</p>
+                <img src="linkedin_images/post-image-2.png" alt="">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="linkedin_images/thumbsup.png" alt="">
+                        <img src="linkedin_images/love.png" alt="">
+                        <img src="linkedin_images/clap.png" alt="">
+                        <span class="liked-users">Nora Kain and 230 others</span>
+                    </div>
+                    <div>
+                        126 comments &middot; 80 shares
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="linkedin_images/user-1.png" class="post-activity-user-icon" alt="">
+                        <img src="linkedin_images/down-arrow.png" class="post-activity-arrow-icon" alt="">
+                    </div>
+                        <div class="post-activity-link">
+                            <img src="linkedin_images/like.png" alt="">
+                            <span>Like</span>
+                        </div>
+
+                        <div class="post-activity-link">
+                            <img src="linkedin_images/comment.png" alt="">
+                            <span>Comment</span>
+                        </div>
+
+                        <div class="post-activity-link">
+                            <img src="linkedin_images/share.png" alt="">
+                            <span>Share</span>
+                        </div>
+
+                        <div class="post-activity-link">
+                            <img src="linkedin_images/send.png" alt="">
+                            <span>Send</span>
+                        </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="linkedin_images/user-4.png" alt="">
+                    <div>
+                        <h1>Maria Kons</h1>
+                        <small>Project Manager</small>
+                    
+                        <small> &middot; 1d ago</small>
+                    </div>
+                </div>
+                <p>Always looking for potential emmployer who's knows what kind of potential they are holding so make them to use unleash their potential By, exposing them into situations where they can do their best. So always keep honing your skills</p>
+                <img src="linkedin_images/post-image-1.png" alt="">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="linkedin_images/thumbsup.png" alt="">
+                        <img src="linkedin_images/love.png" alt="">
+                        <img src="linkedin_images/clap.png" alt="">
+                        <span class="liked-users">Micheal and 223 others</span>
+                    </div>
+                    <div>
+                        216 comments &middot; 130 shares
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="linkedin_images/user-3.png" class="post-activity-user-icon" alt="">
+                        <img src="linkedin_images/down-arrow.png" class="post-activity-arrow-icon" alt="">
+                    </div>
+                        <div class="post-activity-link">
+                            <img src="linkedin_images/like.png" alt="">
+                            <span>Like</span>
+                        </div>
+
+                        <div class="post-activity-link">
+                            <img src="linkedin_images/comment.png" alt="">
+                            <span>Comment</span>
+                        </div>
+
+                        <div class="post-activity-link">
+                            <img src="linkedin_images/share.png" alt="">
+                            <span>Share</span>
+                        </div>
+
+                        <div class="post-activity-link">
+                            <img src="linkedin_images/send.png" alt="">
+                            <span>Send</span>
+                        </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="linkedin_images/user-6.png" alt="">
+                    <div>
+                        <h1>John Doe</h1>
+                        <small>Developer at Microsoft</small>
+                    
+                        <small> &middot; 10d ago</small>
+                    </div>
+                </div>
+                <p>Always looking for potential emmployer who's knows what kind of potential they are holding so make them to use unleash their potential By, exposing them into situations where they can do their best. So always keep honing your skills</p>
+                <img src="linkedin_images/post-image-4.png" alt="">
+
+                <div class="post-stats">
+                    <div>
+                        <img src="linkedin_images/thumbsup.png" alt="">
+                        <img src="linkedin_images/love.png" alt="">
+                        <img src="linkedin_images/clap.png" alt="">
+                        <span class="liked-users">Abhi and 206 others</span>
+                    </div>
+                    <div>
+                            14 comments &middot; 29 shares
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="linkedin_images/user-4.png" class="post-activity-user-icon" alt="">
+                        <img src="linkedin_images/down-arrow.png" class="post-activity-arrow-icon" alt="">
+                    </div>
+                        <div class="post-activity-link">
+                            <img src="linkedin_images/like.png" alt="">
+                            <span>Like</span>
+                        </div>
+
+                        <div class="post-activity-link">
+                            <img src="linkedin_images/comment.png" alt="">
+                            <span>Comment</span>
+                        </div>
+
+                        <div class="post-activity-link">
+                            <img src="linkedin_images/share.png" alt="">
+                            <span>Share</span>
+                        </div>
+
+                        <div class="post-activity-link">
+                            <img src="linkedin_images/send.png" alt="">
+                            <span>Send</span>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- MAIN CONTENT ENDS -->
+
+        <!-- RIGHT SIDEBAR STARTS -->
+        <div class="right-sidebar">
+            <div class="sidebar-news">
+                <img src="linkedin_images/more.png" class="info-icon" alt="">
+                <h1>Trending News</h1>
+                <a href="#">Need of an Skilled Developer</a>
+                <span>1d ago &middot; 9,092 hits</span>
+
+                <a href="#">Walk-in interviews for Developer</a>
+                <span>2d ago &middot; 12,908 hits</span>
+
+                <a href="#">Microsoft had a recession going-on</a>
+                <span>1week ago &middot; 13,568 hits</span>
+
+                <a href="#">Apply for Devops Position</a>
+                <span>1d ago &middot; 3.562 hits</span>
+
+                <a href="#">Cloud Architect and FullStack Developer</a>
+                <span>1d ago &middot; 9,092 hits</span>
+                <a href="#" class="read-more-link">Read more...</a>
+            </div>
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Learn and Upskill yourself with this course</p>
+                <div>
+                    <img src="linkedin_images/user-3.png" alt="">
+                    <img src="linkedin_images/mi-logo.png" alt="">
+                </div>
+                <b>Demand and learn in Xiaomi</b>
+                <a href="#" class="ad-link">Learn more...</a>
+            </div>
+            <div class="sidebar-useful-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Help Center</a>
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Get the app</a>
+                <a href="#"></a>
+                <a href="#">More</a>
+                <div class="copyright-msg">
+                    <img src="linkedin_images/logo.png" alt="">
+                    <p>Linkedin &copy; 2023. All Rights Reserved</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- RIGHT SIDEBAR ENDS -->
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
